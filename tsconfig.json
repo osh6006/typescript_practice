@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    // 어디서 동작하는지 알려줌
+    "lib": ["ES6", "DOM"],
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true
+  }
+}
